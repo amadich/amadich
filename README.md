@@ -1,10 +1,11 @@
 ```js
 const HelloWorld = async () => {
   const data = {
-    title: "Hello 👋 I'm Mohamed Jeridi - Web Developer.",
-      Content: "I got into the world of programming, exploring and learning about security and technology
-      world since then.
-      I'm self-taught, love solving challenging problems, and have a passion for the web and programming.",
+    title: "👋 Hi there, I'm Mohamed Jeridi — Software Engineer",
+    content: "I'm a passionate Full Stack Developer with a strong focus on building scalable and modern web applications. 
+    I enjoy working across the entire development lifecycle — from designing intuitive user interfaces to developing efficient backend systems.
+    My main tech stack revolves around the MERN ecosystem, and I’m constantly exploring new technologies and DevOps practices to enhance performance and reliability.
+    I believe in writing clean, maintainable code and building products that make a real difference.",
     key: "XQaNcKcNnQBso0CP5mRgToiy9reE4u_2pNoDjxi1YQs"
   }
 
@@ -14,7 +15,7 @@ const HelloWorld = async () => {
     body: JSON.stringify(data)
   })
   
-  console.log(response.json())
+  console.log(await response.json())
 }
 ```
 [![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=amadich&bg_color=c2e8ff&color=4c709e&line=009dff&point=0084ff&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
