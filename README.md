@@ -18,4 +18,6 @@ const HelloWorld = async () => {
   console.log(await response.json())
 }
 ```
+<!--
 [![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=amadich&bg_color=c2e8ff&color=4c709e&line=009dff&point=0084ff&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+-->
